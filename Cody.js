@@ -124,7 +124,7 @@ module.exports = class Cody extends Client {
         if((Date.now() - this.setGameTime) >= 240000 || content.force) {
             if(content.random) {
                 let playing = ['Minecraft', 'GTA V', 'Dead Cells', 'https://discord.gg/5Xt3uHF', 'Vote em mim e adquira vários benefícios: https://discordbots.org/bot/507292506942210048/vote']
-                let streaming = [`Cody - ${await this.usersAlt.size()} usuários em ${await this.guildsAlt.size()} servidores com ${await this.channelsAlt.size()} canais.`]
+                let streaming = [`(global.botname) - ${await this.usersAlt.size()} usuários em ${await this.guildsAlt.size()} servidores com ${await this.channelsAlt.size()} canais.`]
                 let listening = ['Spotify.', `${await this.usersAlt.size()} usuários fazerem suas coisas.`]
                 let watching = ['animes.', 'Netflix.']
                 let randomGames = [{
